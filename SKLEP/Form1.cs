@@ -14,6 +14,7 @@ namespace SKLEP
     public partial class Form1 : Form
     {
         SKLEPEntities sklepEntities = new SKLEPEntities();
+
         public Form1()
         {
             InitializeComponent();
@@ -22,6 +23,11 @@ namespace SKLEP
         private void btnGetData_Click(object sender, EventArgs e)
         {
             DbSet<Drukarki> drukarki = sklepEntities.Drukarki;
+            DbSet<Produkty> produkty = sklepEntities.Produkty;
+            drukarkiBindingSource.DataSource = sklepEntities.Drukarki.ToList();
+            
+            ;
         }
+       
     }
 }
