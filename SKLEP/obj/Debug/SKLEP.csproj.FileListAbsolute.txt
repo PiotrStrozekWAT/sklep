@@ -1,0 +1,15 @@
+D:\Piotr\source\repos\SKLEP\SKLEP\obj\Debug\SKLEP.csprojResolveAssemblyReference.cache
+D:\Piotr\source\repos\SKLEP\SKLEP\obj\Debug\SKLEP.Form1.resources
+D:\Piotr\source\repos\SKLEP\SKLEP\obj\Debug\SKLEP.Properties.Resources.resources
+D:\Piotr\source\repos\SKLEP\SKLEP\obj\Debug\SKLEP.csproj.GenerateResource.cache
+D:\Piotr\source\repos\SKLEP\SKLEP\obj\Debug\SKLEP.csproj.CoreCompileInputs.cache
+D:\Piotr\source\repos\SKLEP\SKLEP\bin\Debug\SKLEP.exe.config
+D:\Piotr\source\repos\SKLEP\SKLEP\bin\Debug\SKLEP.exe
+D:\Piotr\source\repos\SKLEP\SKLEP\bin\Debug\SKLEP.pdb
+D:\Piotr\source\repos\SKLEP\SKLEP\bin\Debug\EntityFramework.dll
+D:\Piotr\source\repos\SKLEP\SKLEP\bin\Debug\EntityFramework.SqlServer.dll
+D:\Piotr\source\repos\SKLEP\SKLEP\bin\Debug\EntityFramework.xml
+D:\Piotr\source\repos\SKLEP\SKLEP\bin\Debug\EntityFramework.SqlServer.xml
+D:\Piotr\source\repos\SKLEP\SKLEP\obj\Debug\SKLEP.csproj.CopyComplete
+D:\Piotr\source\repos\SKLEP\SKLEP\obj\Debug\SKLEP.exe
+D:\Piotr\source\repos\SKLEP\SKLEP\obj\Debug\SKLEP.pdb
