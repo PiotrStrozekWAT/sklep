@@ -22,11 +22,24 @@ namespace SKLEP
 
         private void btnGetData_Click(object sender, EventArgs e)
         {
-            DbSet<Drukarki> drukarki = sklepEntities.Drukarki;
-            DbSet<Produkty> produkty = sklepEntities.Produkty;
-            drukarkiBindingSource.DataSource = sklepEntities.Drukarki.ToList();
-            
-            ;
+            //DbSet<Drukarki> drukarki = sklepEntities.Drukarki;
+            //DbSet<Produkty> produkty = sklepEntities.Produkty;
+
+            var drukprod = (from d in sklepEntities.Drukarki
+                            join p in sklepEntities.Produkty on d.model equals p.model
+                            //where d.kolor_boolean == true
+                            select new
+                            {
+                                model = d.model,
+                                typ = d.typ,
+                                kolor_boolean = d.kolor_boolean,
+                                cena = d.cena,
+                                producent = p.producent,
+                            }).ToList();
+
+            dataGridView1.DataSource = drukprod;
+            //drukarkiBindingSource.DataSource = sklepEntities.Drukarki.ToList();
+    
         }
        
     }

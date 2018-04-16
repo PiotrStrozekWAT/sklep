@@ -28,17 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.btnGetData = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.producent = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.kolor_boolean = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cena = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.drukarkiBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.produktyDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.drukarkiBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // btnGetData
@@ -55,14 +48,7 @@
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.producent,
-            this.kolor_boolean,
-            this.cena,
-            this.produktyDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.drukarkiBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(9, 12);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
@@ -75,38 +61,6 @@
             this.dataGridViewTextBoxColumn1.HeaderText = "Produkty";
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             // 
-            // producent
-            // 
-            this.producent.DataPropertyName = "producent";
-            this.producent.HeaderText = "producent";
-            this.producent.Name = "producent";
-            this.producent.ReadOnly = true;
-            // 
-            // kolor_boolean
-            // 
-            this.kolor_boolean.DataPropertyName = "kolor_boolean";
-            this.kolor_boolean.HeaderText = "kolor";
-            this.kolor_boolean.Name = "kolor_boolean";
-            this.kolor_boolean.ReadOnly = true;
-            // 
-            // cena
-            // 
-            this.cena.DataPropertyName = "cena";
-            this.cena.HeaderText = "cena";
-            this.cena.Name = "cena";
-            this.cena.ReadOnly = true;
-            // 
-            // drukarkiBindingSource
-            // 
-            this.drukarkiBindingSource.DataSource = typeof(SKLEP.Drukarki);
-            // 
-            // produktyDataGridViewTextBoxColumn
-            // 
-            this.produktyDataGridViewTextBoxColumn.DataPropertyName = "Produkty";
-            this.produktyDataGridViewTextBoxColumn.HeaderText = "Produkty";
-            this.produktyDataGridViewTextBoxColumn.Name = "produktyDataGridViewTextBoxColumn";
-            this.produktyDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -117,7 +71,6 @@
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.drukarkiBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -125,12 +78,7 @@
         #endregion
         private System.Windows.Forms.Button btnGetData;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.BindingSource drukarkiBindingSource;
-        private System.Windows.Forms.DataGridViewTextBoxColumn producent;
-        private System.Windows.Forms.DataGridViewTextBoxColumn kolor_boolean;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cena;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn produktyDataGridViewTextBoxColumn;
     }
 }
 
